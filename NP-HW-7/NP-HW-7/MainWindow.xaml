@@ -1,0 +1,15 @@
+﻿<Window x:Class="NP_HW_7.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NP_HW_7"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="203.226" Width="490.806">
+    <Grid Margin="0,0,3.2,0">
+        <TextBox Name="path" HorizontalAlignment="Left" Height="75" Margin="30,28,0,0" TextWrapping="Wrap" Text="https://mystatfiles.itstep.org/index.php?download=rtILv2awXkYrSQ7WVzOr0E7KVjutnHwAFUSoC1dZyPkOZryDxScM28LcVqiTNRfFGmbWAXC2Uam8kXd7hQo9Io08BzMDCBxltD3H7te1wwI%3D" VerticalAlignment="Top" Width="365"/>
+        <Button Name="download" Click="DownloadButton" Content="Download" HorizontalAlignment="Left" Margin="35,108,0,0" VerticalAlignment="Top" Width="75"/>
+        <Button Name="open" Click="OpenButton" Content="Open" HorizontalAlignment="Left" Margin="158,108,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>
